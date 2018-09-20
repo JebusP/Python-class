@@ -1,0 +1,12 @@
+score=float(input("What is your total score?"))
+if score >= 450:
+  print("Your grade is A = Distinguished")
+elif score >= 400:
+  print("Your grade is a B = Above Average")
+elif score >= 350: 
+    print("Your grade is a C = Average")
+elif score >= 300:
+  print("Your grade is a D = Minimum Passing")
+elif score < 300:
+  print("Your grade is a F = Failing")
+  
